@@ -8,8 +8,8 @@
     - [IMPORT DATABASE](#Import-database)
 - [Run server](#Run-server)
     - [INSTALL MODULE](#Install-module-(Install-module-when-you-run-the-first-time))
-    - [RUN GAMESERVER](#Run-gameserver)
-    - [RUN WEBSERVER](#Run-webserver)
+    - [RUN GAME SERVER](#Run-game-server)
+    - [RUN WEB SERVER](#Run-web-server)
 
 ## Enviroments
 - Visual studio code (To open gameserver and webserver folder). [Download here](https://code.visualstudio.com/docs/?dv=win)
