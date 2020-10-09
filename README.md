@@ -43,7 +43,7 @@
 ### Install modules
 #### :warning: Just installing in the first time you use
 
-- Open terminal in Visual Studio Code then type:
+- Open terminal in Visual Studio Code (Ctrl+J) then type:
 
 `npm install yarn`
 
@@ -54,12 +54,12 @@
 `yarn add config`
 
 ### Run game server
-- Open terminal in Visual Studio Code then type:
+- Open terminal in Visual Studio Code (Ctrl+J) then type:
 
 `node app`
 
 ### Run web server
-- Open terminal in Visual Studio Code then type:
+- Open terminal in Visual Studio Code (Ctrl+J) then type:
 
 `nodemon`
 
