@@ -18,7 +18,7 @@
 ### First: you run mongochef
 
 
-details><summary>CLICK TO SEE</summary>
+<details><summary>CLICK TO SEE</summary>
 <p>
 
 #### ![image](https://user-images.githubusercontent.com/52252046/95580666-eda43800-0a61-11eb-9ed9-9924e25e568c.png)
