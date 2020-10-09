@@ -4,12 +4,12 @@
 
 - [Enviroments](#Enviroments)
 - [Import database](#Database)
-    - [RUN MONGOCHEF](#Run-mongochef)
-    - [IMPORT DATABASE](#Import-database)
+    - [Run mongochef](#Run-mongochef)
+    - [Import database](#Import-database)
 - [Run server](#Run-server)
-    - [INSTALL MODULE](#Install-module)
-    - [RUN GAME SERVER](#Run-game-server)
-    - [RUN WEB SERVER](#Run-web-server)
+    - [Install modules](#Install-modules)
+    - [Run game server](#Run-game-server)
+    - [Run web server](#Run-web-server)
 
 ## Enviroments
 - Visual studio code (To open gameserver and webserver folder). [Download here](https://code.visualstudio.com/docs/?dv=win)
@@ -40,7 +40,7 @@
 </details>
 
 ## Run server
-### Install module
+### Install modules
 #### :warning: Just installing in the first time you use
 
 - Open terminal in Visual Studio Code then type:
