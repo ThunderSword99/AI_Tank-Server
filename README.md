@@ -3,7 +3,7 @@
 ## Table of content
 
 - [Enviroments](#Enviroments)
-- [Installation](#installation)
+- [Import database](#Import database)
     - [RUN MONGOCHEF](#(1) First: you run mongochef)
     - [IMPORT DATABASE](#(2) Second: import database)
 
