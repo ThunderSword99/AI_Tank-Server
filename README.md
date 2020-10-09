@@ -15,7 +15,7 @@
 - Mongochef (To use database). [Download here](https://drive.google.com/file/d/1RJywbAKmuMsNvHmJcCxUVtVXGD_YSftO/view?usp=sharing)
 
 ## Import database
-### First: you run mongochef
+### (1) First: you run mongochef
 
 
 <details><summary>CLICK TO SEE</summary>
@@ -28,7 +28,7 @@
 
 
 
-### Second: import database
+### (2) Second: import database
 
 
 
