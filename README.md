@@ -6,6 +6,10 @@
 - [Import database](#Database)
     - [RUN MONGOCHEF](#Run-mongochef)
     - [IMPORT DATABASE](#Import-database)
+- [Run server](#Run-server)
+    - [INSTALL MODULE](#Install-module-(Install-module-when-you-run-the-first-time))
+    - [RUN GAMESERVER](#Run-gameserver)
+    - [RUN WEBSERVER](#Run-webserver)
 
 ## Enviroments
 - Visual studio code (To open gameserver and webserver folder). [Download here](https://code.visualstudio.com/docs/?dv=win)
@@ -13,7 +17,6 @@
 
 ## Database
 ### Run mongochef
-
 
 <details><summary>CLICK TO SEE</summary>
 <p>
@@ -23,12 +26,7 @@
 </p>
 </details>
 
-
-
 ### Import database
-
-
-
 
 <details><summary>CLICK TO SEE</summary>
 <p>
@@ -40,3 +38,26 @@
 
 </p>
 </details>
+
+## Run server
+### Install module (Install module when you run the first time)
+- Open terminal in Visual Studio Code then type:
+
+`npm install yarn`
+
+`yarn`
+
+`yarn add socket.io-client`
+
+`yarn add config`
+
+### Run game server
+- Open terminal in Visual Studio Code then type:
+
+`node app`
+
+### Run web server
+- Open terminal in Visual Studio Code then type:
+
+`nodemon`
+
