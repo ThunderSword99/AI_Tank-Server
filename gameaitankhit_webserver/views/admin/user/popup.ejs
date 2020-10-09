@@ -1,0 +1,53 @@
+<div class="modal fade" role="dialog" id="editform">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form action="/admin/editUser" name="editform" method="POST">
+                    <input type="hidden" name="_csrf" value="">
+                    <div class="row edit-form">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="userName" placeholder="Username" readonly required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="password" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="firstName" placeholder="First name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="lastName" placeholder="Last name" required>
+                            </div>
+                            <div class="dropdown">
+                                <div class="form-group">
+                                    <select class="form-control" name="role">
+                                        <option value="user">User</option>
+                                        <option value="admin">Admin</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="dateOfBirth" placeholder="Date of birth" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="studentID" placeholder="Student ID" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email" readonly required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="phoneNumber" placeholder="Phone number" required>
+                            </div>
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-primary">Apply</button>
+                                <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

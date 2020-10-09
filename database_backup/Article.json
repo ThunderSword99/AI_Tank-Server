@@ -1,0 +1,9 @@
+{ 
+    "_id" : ObjectId("5aed99e5fa7d2b106036e052"), 
+    "createTime" : ISODate("2018-05-05T11:47:49.649+0000"), 
+    "modifiedTime" : ISODate("2018-05-05T12:05:05.700+0000"), 
+    "title" : "Thông báo từ hệ thống", 
+    "content" : "- Cuộc thi sẽ diễn ra trong vòng 3h đồng hồ. Bot cuối cùng được chọn sẽ được đưa vào thi đấu lấy kết quả chính thức. Replay và kết quả sẽ được công bố online để phục vụ xem lại", 
+    "creator" : ObjectId("5ab67d508b0d883c20bf4f85"), 
+    "__v" : NumberInt(0)
+}

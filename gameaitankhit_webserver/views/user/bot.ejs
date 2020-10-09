@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>QUẢN LÍ BOT - AI Game 2018</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<div class="wrap">
+
+		<header>
+			<img src="/img/word.png" class="word" alt="IT Festival" />
+			<img src="/img/logo1.png" class="logo" alt="IT Festival" />
+			<div style="clear: both;"></div>
+		</header>
+
+		<% include ./layout/menu.ejs%>
+
+			<div class="content">
+				<div class="bot">
+					<form action="/user/bot/create?_csrf=<%=user.csrfToken%>" method="POST" enctype="multipart/form-data">
+						<table>
+							<tr>
+								<td colspan="2">
+									<h2>Tải lên BOT:</h2>
+								</td>
+								<td widtd="">
+									<h2>Tải xuống source:</h2>
+								</td>
+							</tr>
+							<tr>
+								<td widtd="35%">
+									<input type="text" placeholder="Bot name" name="botName" required>
+								</td>
+								<td widtd="35%">
+								</td>
+								<td widtd="30%" id="download">
+									<a href="/sourceGame/Pack3.3a.zip" style="text-decoration: none; color:white;">DOWNLOAD TEMPLATE</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="file" name="bot" accept=".exe" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="submit" value="SUBMIT" style="margin: 0;">
+								</td>
+						</table>
+					</form>
+				</div>
+				<div class="bot-list">
+					<h2>Danh sách BOT:</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td class="le">Name</td>
+								<td class="chan">Win</td>
+								<td class="le">Lost</td>
+								<td class="chan">Draw</td>
+								<td class="le">Select as champion</td>
+							</tr>
+						</tbody>
+						<% for (i in data) {%>
+							<tbody>
+								<tr>
+									<td class="le">
+										<%=data[i].name%>
+									</td>
+									<td class="chan">
+										<%=data[i].win%>
+									</td>
+									<td class="le">
+										<%=data[i].lose%>
+									</td>
+									<td class="chan">
+										<%=data[i].draw%>
+									</td>
+									<td class="le">
+										<form action="/user/bot/select" method="POST">
+											<input type="hidden" name="_csrf" value="<%=user.csrfToken%>">
+											<input type="hidden" name="id" value="<%=data[i].id%>">
+											<input class="sb" type="submit" value="<%=data[i].isBotSelected ? 'Selected' : 'Select'%>">
+										</form>
+									</td>
+								</tr>
+							</tbody>
+							<% } %>
+					</table>
+				</div>
+			</div>
+
+			<footer>
+				Copyright &copy; 2020 by
+				<a href="">HIT</a>
+			</footer>
+	</div>
+</body>
+
+</html>

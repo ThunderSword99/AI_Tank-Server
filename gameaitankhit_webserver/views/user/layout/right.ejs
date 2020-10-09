@@ -1,0 +1,57 @@
+<div class="right">
+
+    <div class="login">
+        <form action="/login" method="POST">
+            <table width="100%">
+                <% if (user) { %>
+                    <tr>
+                        <div class="container" id="message-area">
+                            <div class="containerChat">
+                                <p style="text-align: center">Welcome
+                                    <%= user.name %>
+                                </p>
+                                <input type="hidden" value="<%=user.username%>" id="userName">
+                            </div>
+                        </div>
+                        <form>
+                            <input type="text" name="message" id="message" autocomplete="off" />
+                            <button class="button_send" id="btn_send">Send</button>
+                        </form>
+                    </tr>
+                    <%} else {%>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                LOGIN
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color: white;">username</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" placeholder="username" name="username" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color: white;">password</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="password" placeholder="password" name="password" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="LOG IN">
+                            </td>
+                            <td>
+                                <a href="/signup">
+                                    <input type="button" value="REGISTER">
+                                </a>
+                            </td>
+                        </tr>
+                        <%}%>
+            </table>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+{ 
+    "_id" : ObjectId("5abbd15c8b0d883654f9c86f"), 
+    "title" : "AI Game 2018", 
+    "content" : "Các tổ chức sống như động vật và con người có vài loại trí tuệ, giúp chúng ta trong việc đưa ra quyết định riêng để thực hiện vài điều. Mặc khác, máy tính chỉ là thiết bị điện tử có thể xử lý dữ liệu, thực hiện những phép toán logic ở tốc độc cao, và xuất ra kết quả. Vì thế, Trí tuệ nhân tạo (AI) là đề tài chính của việc tạo ra máy tính có thể suy nghĩ và quyết định như tổ chức sống, để thực thi những phép toán chuyên biệt. Hiển nhiên đây là chủ đề lớn. Và không có thể nào một quyển sách nhỏ như thế này có thể nói hết mọi điều liên quan đến AI. Nhưng nó thật sự quan trọng để hiểu những điều căn bản của AI, khi đang được sử dụng trong những lĩnh vực khác nhau. AI chỉ là một thuật ngữ chung; những thi hành của nó cùng những ứng dụng của nó thì khác nhau cho những mục đích khác nhau, giải quyết những tập vấn đề khác nhau.\r\n", 
+    "createTime" : "2018-03-29T00:00:00.000+0000", 
+    "modifiedTime" : "2018-03-29T00:00:00.000+0000", 
+    "creator" : ObjectId("5ab67d508b0d883c20bf4f85")
+}
+{ 
+    "_id" : ObjectId("5abc4c32efac7f2cbce75496"), 
+    "createTime" : ISODate("2018-03-29T02:15:14.725+0000"), 
+    "modifiedTime" : ISODate("2018-03-29T03:10:25.153+0000"), 
+    "title" : "Artificial intelligence", 
+    "content" : "The term game AI is used to refer to a broad set of algorithms that also include techniques from control theory, robotics, computer graphics and computer science in general, and so video game AI may often not constitute \"true AI\" in that such techniques due not facilitate computer learning or other standard criteria, only constituting \"automated computation,\" or a predetermined and limited set of responses to a predetermined and limited set of inputs.[1][2][3]\r\n\r\nMany industry and corporate voices[who?] claim that so-called video game AI has come a long way in the sense that it has revolutionized the way humans interact with all forms of technology, although many[who?] expert researchers are skeptical of such claims, and particularly of the notion that such technologies fit the definition of \"intelligence\" standardly used in the cognitive sciences.[1][2][3] Industry voices[who?] make the argument that AI has become more versatile in the way we use all technological devices for more than their intended purpose because the AI allows the technology to operate in multiple ways, allegedly developing their own personalities and carrying out complex instructions of the user.[4]\r\n\r\nHowever, many[who?] in the field of AI have argued that video game AI is not true intelligence, but an advertising buzzword used to describe computer programs that use simple sorting and matching algorithms to create the illusion of intelligent behavior while bestowing software with a misleading aura of scientific or technological complexity and advancement.[1][2][3] Since game AI for NPCs is centered on appearance of intelligence and good gameplay within environment restrictions, its approach is very different from that of traditional AI.", 
+    "__v" : NumberInt(0), 
+    "creator" : ObjectId("5ab67d508b0d883c20bf4f85")
+}

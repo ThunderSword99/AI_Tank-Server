@@ -1,0 +1,49 @@
+<div class="header">
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="/">TRANG CHỦ</a>
+            </li>
+            <li>
+                <a href="/regulation">LUẬT CHƠI</a>
+            </li>
+
+            <li>
+                <a href="/player">BẢNG XẾP HẠNG</a>
+            </li>
+
+            <li>
+                <a href="/match">DS TRẬN ĐẤU</a>
+            </li>
+            <%   if (user && user.role == 'admin') { %>
+                <li>
+                    <a href="/admin/user">NGƯỜI DÙNG</a>
+                </li>
+                <%}%>
+            <%   if (user && user.role == 'admin') { %>
+                <li>
+                    <a href="/admin/fighting">ĐẤU</a>
+                </li>
+                <%}%>
+            <%   if (user && user.role == 'user') { %>
+                <li>
+                    <a href="/user/bot">QL BOT</a>
+                </li>
+                <%}%>
+            <%   if (user && user.role == 'admin') { %>
+                <li>
+                    <a href="/admin/article">THÔNG BÁO</a>
+                </li>
+                <%}%>
+                <li>
+                    <a href="/logout">
+                        <% if (user) {%>
+                            ĐĂNG XUẤT
+                            <%} else {%>
+                                ĐĂNG NHẬP
+                                <%}%>
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>

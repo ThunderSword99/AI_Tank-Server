@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI GAME</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+
+        <header>
+            <img src="/img/word.png" class="word" alt="IT Festival" />
+            <img src="/img/logo1.png" class="logo" alt="IT Festival" />
+            <div style="clear: both;"></div>
+        </header>
+
+        <% include ../layout/menu.ejs%>
+
+            <div class="content main">
+                <% include ./layout/left.ejs%>
+                    <div class="right">
+
+                        <div class="login">
+                            <% if (msg == '') { %>
+                                <form action="/signup" method="POST">
+                                    <table width="100%">
+                                        <tr>
+                                            <td colspan="2" style="text-align: center;">ĐĂNG KÍ </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Tài khoản</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="text" placeholder="admin" name="username" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Mật khẩu</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="password" placeholder="mật khẩu" name="password" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Tên</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="text" placeholder="Khánh" name="firstName" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Họ</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="text" placeholder="Nguyễn Duy" name="lastName" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Ngày sinh</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="date" placeholder="" name="birthDate" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Mã sinh viên</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="number" placeholder="1141300300" name="studentId" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Email</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="email" placeholder="aigmail@gmail.com" name="email" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="color: white;">Số điện thoại</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input type="tel" placeholder="0123456789" name="phone" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="submit" value="ĐĂNG KÍ">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                                <% } else { %>
+                                    <form>
+                                        <table width="100%">
+                                            <tr>
+                                                <td colspan="2" style="text-align: center;">
+                                                    <%=msg%>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                    <%}%>
+                        </div>
+                    </div>
+                    <div style="clear:both"></div>
+            </div>
+
+            <footer>
+                Copyright &copy; 2020 by
+                <a href="">HIT CLUB</a>
+            </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<div class="modal fade" role="dialog" id="editform">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form action="/article/edit" name="editform" method="POST">
+                    <input type="hidden" name="_csrf" value="">
+                    <div class="row edit-form">
+                        <div class="col-md-12">
+                            <input type="text" name="id" value="" hidden>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="title" value="" placeholder="title">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="content" rows="10" cols="130" placeholder="content"></textarea>
+                            </div>
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-primary">Apply</button>
+                                <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

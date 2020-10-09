@@ -1,0 +1,15 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": "80"
+    },
+    "gameServer": {
+        "ip": "localhost"
+    },
+    "liveStream": {
+        "port": "4001"
+    },
+    "mongoo": "mongodb://localhost:27017/AIGame",
+    "sercret": "dkz",
+    "key": "tuan"
+}

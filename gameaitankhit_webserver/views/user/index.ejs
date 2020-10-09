@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI GAME 2018</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<style>
+    .containerChat {
+        border: 2px solid #3f3d3d;
+        background-color: #444242;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+    #message-area {
+        max-height: 500px;
+        padding-right: 10px;
+        overflow-y: scroll;
+    }
+    
+    #message {
+        width: 312px;
+        padding-left: 10px;
+    }
+    
+    .containerChat::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .containerChat img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+    
+    .containerChat img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    
+    .time-right {
+        float: right;
+        color: #aaa;
+        font-size: 10px;
+    }
+    
+    .time-left {
+        float: left;
+        color: #999;
+        font-size: 10px;
+    }
+    
+    .button_send {
+        background-color: #555555;
+        border: none;
+        color: white;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 2px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="wrap">
+
+        <header>
+            <img src="/img/word.png" class="word" alt="IT Festival" />
+            <img src="/img/logo1.png" class="logo" alt="IT Festival" />
+            <div style="clear: both;"></div>
+        </header>
+
+        <% include ../layout/menu.ejs%>
+
+            <div class="content main">
+                <% include ./layout/left.ejs%>
+                    <% include ./layout/right.ejs%>
+                        <div style="clear:both"></div>
+            </div>
+
+            <footer>
+                Copyright &copy; 2020 by
+                <a href="">HIT</a>
+            </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/socket.io.js"></script>
+    <script type="text/javascript" src="/js/socketClient.js"></script>
+</body>
+
+</html>

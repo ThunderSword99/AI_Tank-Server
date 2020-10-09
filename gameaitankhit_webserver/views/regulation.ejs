@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI game 2018</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <img src="/img/word.png" class="word" alt="IT Festival" />
+            <img src="/img/logo1.png" class="logo" alt="IT Festival" />
+            <div style="clear: both;"></div>
+        </header>
+
+        <%- include ./layout/menu %>
+
+            <div class="content">
+
+                <pre style="color: #e7e1e1; background: #32312C">
+                        
+            Yêu cầu các phần mềm
+            NodeJS: https://nodejs.org/download/
+            Web browser: Chrome, Firefox, Coccoc, …
+            Visual studio C++ 2012-2017
+            
+            Kích thước bản đồ là 22 x 22. Biên giới của bản đồ đầy những chướng ngại không thể phá hủy để 
+            làm ranh giới.
+            Do đó, bản đồ có thể phát được thực tế là 20 x 20, và bắt đầu từ 1 x 1.
+            Các tọa độ của mỗi đối tượng là điểm trung tâm của nó.
+            Điểm đầu tiên của bản đồ là x: 1, y: 1, ở phía trên bên trái của màn hình.
+            Xe tăng, cơ sở, chướng ngại vật là ô vuông.
+            Xe tăng và chướng ngại vật có kích thước 1 chiếc, trong khi cơ sở có kích thước 2 chiếc.
+            Đạn chỉ là điểm. Họ không có kích thước. Sự va chạm xảy ra khi đạn nằm bên trong hình vuông của 
+            vật thể (hoặc đi qua hình vuông).
+            Kiểm tra va chạm với sự di chuyển của xe tăng theo nguyên tắc này:
+            + Di chuyển qua vùng đó
+            + Nếu vị trí mới va chạm với một đối tượng khác
+            + Di chuyển qua vùng có chướng ngại vật.
+            Thời gian chơi bình thường: 2 phút 
+            Kích hoạt đẻ trứng mỗi 30 giây (300 vòng).
+            
+            Những trở ngại phá hoại HP: 100.
+            Cơ sở chính có HP: 300.
+            Cơ sở phụ có HP: 200. 
+            
+                                </pre>
+
+            </div>
+
+            <footer>
+                Copyright &copy; 2020 by HIT
+            </footer>
+
+    </div>
+</body>
+
+</html>

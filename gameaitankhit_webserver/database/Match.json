@@ -1,0 +1,39 @@
+{ 
+    "_id" : ObjectId("5ac1dbd345851a85e8fdc368"), 
+    "status" : "finished", 
+    "createdTime" : ISODate("2018-04-02T07:29:23.631+0000"), 
+    "botOne" : ObjectId("5abfd06d1697c95f9823655d"), 
+    "botTwo" : ObjectId("5ac1dac34f2c165ae83f14a2"), 
+    "challenger" : NumberInt(2), 
+    "__v" : NumberInt(0), 
+    "result" : {
+        "replay" : "/Replays/5ac1dbd345851a85e8fdc368.grl", 
+        "code" : NumberInt(2)
+    }
+}
+{ 
+    "_id" : ObjectId("5ac1dd86b35b6e1a301219ec"), 
+    "status" : "finished", 
+    "createdTime" : ISODate("2018-04-02T07:36:38.401+0000"), 
+    "botOne" : ObjectId("5abfd06d1697c95f9823655d"), 
+    "botTwo" : ObjectId("5ac1dac34f2c165ae83f14a2"), 
+    "challenger" : NumberInt(2), 
+    "__v" : NumberInt(0), 
+    "result" : {
+        "replay" : "/Replays/5ac1dd86b35b6e1a301219ec.grl", 
+        "code" : NumberInt(2)
+    }
+}
+{ 
+    "_id" : ObjectId("5ac1e93b3f95d73384cc58fa"), 
+    "status" : "finished", 
+    "createdTime" : ISODate("2018-04-02T08:26:35.238+0000"), 
+    "botOne" : ObjectId("5abfd06d1697c95f9823655d"), 
+    "botTwo" : ObjectId("5ac1dac34f2c165ae83f14a2"), 
+    "challenger" : NumberInt(1), 
+    "__v" : NumberInt(0), 
+    "result" : {
+        "code" : NumberInt(2), 
+        "replay" : "/Replays/5ac1e93b3f95d73384cc58fa.grl"
+    }
+}

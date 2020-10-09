@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fight - AI Game 2018</title>
+    <link rel="stylesheet" href="/libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        button:hover {
+            background: #B7A380;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <img src="/img/word.png" class="word" alt="IT Festival" />
+            <img src="/img/logo1.png" class="logo" alt="IT Festival" />
+            <div style="clear: both;"></div>
+        </header>
+        <% include ../../layout/menu.ejs%>
+
+            <div class="content">
+                <div class="bot-list">
+                    <h2>Fight:</h2>
+
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <select class="form-control" name="" id="cbo-player1">
+                            <% playerList.forEach(function(e){  %>
+                                <option value="<%=e._id%>">
+                                    <%= e.lastName + " " + e.firstName + " (" +e.studentID +")" %>
+                                </option>
+                                <% }) %>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <select class="form-control" name="" id="cbo-player2">
+                                <% playerList.forEach(function(e){  %>
+                                        <option value="<%=e._id%>">
+                                            <%= e.lastName + " " + e.firstName + " (" +e.studentID +")" %>
+                                        </option>
+                                        <% }) %>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <button class="btn" value="Fight" id="btn-fight">
+                                OK
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="/libraries/jquery.js"></script>
+            <script src="/libraries/bootstrap/js/bootstrap.min.js"></script>
+            <script src="/js/article.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $("#btn-fight").click(function() {
+                        let base_url = location.protocol + "//" + document.domain + ":" + location.port;
+                        $.ajax({
+                            url: base_url + '/match/fight-by-admin',
+                            type: 'POST',
+                            data: {
+                                player1: $("#cbo-player1").val(),
+                                player2: $("#cbo-player2").val(),
+                            },
+                            dataType: 'json'
+                        }).done(function(res) {
+                            if (res.status == "ok")
+                                window.open('/match/' + res.data);
+                            else
+                                alert("Lỗi: " + res.message);
+                        }).fail(function(err) {
+                            alert('Có lỗi trong quá trình thực hiện thao tác!');
+                        });
+                    })
+                })
+            </script>
+            <footer>
+                Copyright &copy; 2020 by
+                <a href="">HIT</a>
+            </footer>
+    </div>
+</body>
+
+</html>

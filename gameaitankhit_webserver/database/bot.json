@@ -1,0 +1,22 @@
+{ 
+    "_id" : ObjectId("5abfd06d1697c95f9823655d"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "quyet_bot_v1", 
+    "creator" : ObjectId("5abfc87453bf1c3174af4952"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ac1dac34f2c165ae83f14a2"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "khanh_bot_v1", 
+    "creator" : ObjectId("5ab935455f354141a85d7aad"), 
+    "__v" : NumberInt(0)
+}

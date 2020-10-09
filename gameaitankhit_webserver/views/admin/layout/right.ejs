@@ -1,0 +1,49 @@
+<div class="right">
+
+    <div class="login">
+        <form action="/login" method="POST">
+            <table width="100%">
+                <% if (user) { %>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            Welcome Admin(
+                            <%=user.name%>)
+                        </td>
+                    </tr>
+                    <%} else {%>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                LOGIN
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color: white;">username</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" placeholder="username" name="username" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color: white;">password</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="password" placeholder="password" name="password" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="LOG IN">
+                            </td>
+                            <td>
+                                <a href="/signup">
+                                    <input type="button" value="REGISTER">
+                                </a>
+                            </td>
+                        </tr>
+                        <%}%>
+            </table>
+        </form>
+    </div>
+</div>

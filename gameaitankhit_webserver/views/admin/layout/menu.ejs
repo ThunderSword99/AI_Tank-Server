@@ -1,0 +1,42 @@
+<div class="header">
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="/">HOME</a>
+            </li>
+            <li>
+                <a href="/regulation">REGULATION</a>
+            </li>
+            <li>
+                <a href="/player">PLAYER LIST</a>
+            </li>
+            <li>
+                <a href="/match">MATCH LIST</a>
+            </li>
+            <%   if (user && user.role == 'admin') { %>
+            <li>
+                <a href="/admin/user">USER</a>
+            </li>
+            <%}%>
+            <%   if (user && user.role == 'user') { %>
+            <li>
+                <a href="/user/bot">BOT MANAGEMENT</a>
+            </li>
+            <%}%>
+            <%   if (user && user.role == 'admin') { %>
+            <li>
+                <a href="/admin/article">ARTICLE</a>
+            </li>
+            <%}%>
+            <li>
+                <a href="/logout">
+                    <% if (user) {%>
+                        LOGOUT
+                        <%} else {%>
+                            LOGIN
+                            <%}%>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

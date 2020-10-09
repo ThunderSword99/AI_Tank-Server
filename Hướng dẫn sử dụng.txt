@@ -1,0 +1,19 @@
+﻿NOTE:
+Chạy gameaitankhit_gameserver\PsExce64 khi mới tải về
+
+connect db sử dụng mongochef
+Phần cài đặt có trong thư mục Mongochef
+
+yarn add socket.io-client
+yarn add config
+node app
+
+yarn
+nodemon
+
+
+
+
+
+
+

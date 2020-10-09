@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI game 2018</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <img src="/img/word.png" class="word" alt="IT Festival" />
+            <img src="/img/logo1.png" class="logo" alt="IT Festival" />
+            <div style="clear: both;"></div>
+        </header>
+
+        <%- include ../layout/menu %>
+
+            <div class="content">
+                <h1>PLAYERS</h1>
+                <div class="search">
+                    <form action="" method="POST">
+                        <input type="text" value="" placeholder="Enter player name..." name="player">
+                        <input type="submit" value="SEARCH">
+                    </form>
+                </div>
+                <div class="table">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td width="12%" style="text-align: center">Rank</td>
+                            <td>Name</td>
+                            <td width="12%" style="text-align: center">Victory</td>
+                            <td width="12%" style="text-align: center">Defeat</td>
+                            <td width="12%" style="text-align: center">Draw</td>
+                            <td width="12%" style="text-align: center">Win Ratio</td>
+                            <%if(user && user.role != 'admin') {%>
+                                <td width="15%"></td>
+                                <%}%>
+                        </tr>
+                        <%if(data && data.userSort) {%>
+                            <% for(var i=0; i< data.userSort.length; i++) {%>
+                                <tr>
+                                    <td style="text-align: center">
+                                        <%=i+1%>
+                                    </td>
+                                    <td>
+                                        <%=data.userSort[i].lastName%>
+                                            <%=data.userSort[i].firstName%>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <%=data.userSort[i].win%>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <%=data.userSort[i].lose%>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <%=data.userSort[i].draw%>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <%=data.userSort[i].ratio%>%
+                                    </td>
+                                    <%if(user && user.role != 'admin') {%>
+                                        <td style="text-align: center">
+                                            <% if(data.userSort[i].botSelected == true && user.hasBot) {%>
+                                                <% if ( data.userSort[i]._id  != user.id) {%>
+                                                    <a href="/match/newGame/<%=data.userSort[i]._id%>"><span>Thách đấu</span></a>
+                                                    <%} else {%>
+                                                        You
+                                                        <%}%>
+                                                            <%} else {%>
+                                                                Chưa có bot
+                                                                <%}%>
+                                        </td>
+                                        <%}%>
+                                </tr>
+                                <%}%>
+                                    <%}%>
+                                        <%if(data && data.result) {%>
+                                            <% for(var i=0; i< data.result.length; i++) {%>
+                                                <tr>
+                                                    <td style="text-align: center">
+                                                        <%=i+1%>
+                                                    </td>
+                                                    <td>
+                                                        <%=data.result[i].lastName%>
+                                                            <%=data.result[i].firstName%>
+                                                    </td>
+                                                    <td style="text-align: center">
+                                                        <%=data.result[i].win%>
+                                                    </td>
+                                                    <td style="text-align: center">
+                                                        <%=data.result[i].lose%>
+                                                    </td>
+                                                    <td style="text-align: center">
+                                                        <%=data.result[i].ratio%>%
+                                                    </td>
+                                                    <%if(user && user.role != 'admin') {%>
+                                                        <td style="text-align: center">
+                                                            <% if(data.result[i].botSelected == true) {%>
+                                                                <% if ( data.result[i]._id  !=  user.id ) {%>
+                                                                    <a href="/match/newGame/<%=data.result[i]._id%>"><span>Thách đấu</span></a>
+                                                                    <%} else {%>
+                                                                        You
+                                                                        <%}%>
+                                                                            <%} else {%>
+                                                                                Chưa có bot
+                                                                                <%}%>
+                                                        </td>
+                                                        <%}%>
+                                                </tr>
+                                                <%}%>
+                                                    <%}%>
+                    </table>
+                </div>
+            </div>
+
+            <footer>
+                Copyright &copy; 2020 by HIT
+            </footer>
+    </div>
+    <%if(data && data.error) {%>
+        <script>
+            alert('<%=data.error%>');
+        </script>
+        <%}%>
+</body>
+
+</html>

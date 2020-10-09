@@ -1,0 +1,16 @@
+<div class="left">
+    <%for (i in article) {%>
+        <div>
+            <h1>
+                <%=article[i].title%>
+            </h1>
+            <p style="color: #9a9999">Posted by:
+                <%=article[i].creator.userName%> |
+                    <%=article[i].modifiedTime%>
+            </p>
+            <p style="color: #e7e1e1">
+                <%=article[i].content%>
+            </p>
+        </div>
+        <%}%>
+</div>

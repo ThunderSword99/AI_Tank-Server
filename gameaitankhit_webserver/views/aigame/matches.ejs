@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AI game 2018</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+	<header>
+		<img src="/img/word.png" class="word" alt="IT Festival" />
+		<img src="/img/logo1.png" class="logo" alt="IT Festival" />
+		<div style="clear: both;"></div>
+	</header>
+
+	<%- include ../layout/menu %>
+
+	<div class="content">
+		<h1>MATCHES</h1>
+		<div class="table">
+			<table class="table table-bordered">
+			<thead>
+				<tr>
+					<td width="10%" style="text-align: center">Match ID</td>
+					<td style="text-align: center">Challenger</td>
+					<td width="20%" style="text-align: center">Opponent</td>
+					<td width="12%" style="text-align: center">Status</td>
+					<td width="20%" style="text-align: center">Winner</td>
+					<td width="12%" style="text-align: center">Match Detall</td>
+					<% if(user && user.role == "admin") {%>
+						<td width="12%" style="text-align: center">Action</td>
+					<%}%>
+				</tr>
+			</thead>
+			<tbody>
+				<%if(data && !data.error) {%>
+					<%for(var i=0; i<data.matchs.length;i++) {%>
+						<tr>
+							<td style="text-align: center"><%=i+1%></td>
+							<td ><%=data.matchs[i].challengerName%></td>
+							<td ><%=data.matchs[i].opponent%></td>
+							<td style="text-align: center"><%=data.matchs[i].status%></td>
+							<td ><%=data.matchs[i].winner%></td>
+							<td style="text-align: center"><a href="/match/<%=data.matchs[i]._id%>"><span>Detail</span></a></td>
+							<% if(user && user.role == "admin") {%>
+								<td style="text-align: center"><a href="/match/fightBack/<%=data.matchs[i]._id%>"><span>Fight Back</span></a></td>
+							<%}%>
+						</tr>
+					<%}%>
+				<%}%>
+			</tbody>
+		</table>
+		</div>	
+	</div>
+
+	<footer>
+		Copyright &copy; 2020 by HIT 
+	</footer>
+	<%if(data && data.error) {%>
+		<script>
+			alert('<%=data.error%>');
+		</script>
+	<%}%>
+</div>
+</body>
+</html>

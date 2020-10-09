@@ -1,0 +1,1122 @@
+{ 
+    "_id" : ObjectId("5af71ded054682071c5eb394"), 
+    "win" : NumberInt(4), 
+    "lose" : NumberInt(19), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "Yassuo", 
+    "creator" : ObjectId("5af70932054682071c5eb38e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af721b9054682071c5eb395"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "dm", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72240054682071c5eb397"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526145600343", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af724c9054682071c5eb399"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "dm2", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7252a054682071c5eb39b"), 
+    "win" : NumberInt(9), 
+    "lose" : NumberInt(10), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Beo", 
+    "creator" : ObjectId("5af70684054682071c5eb387"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7261c054682071c5eb39e"), 
+    "win" : NumberInt(23), 
+    "lose" : NumberInt(10), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "dm3", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72670054682071c5eb3a1"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "lay loi", 
+    "creator" : ObjectId("5af708be054682071c5eb38d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af726c3054682071c5eb3a3"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "nha", 
+    "creator" : ObjectId("5af704b4054682071c5eb382"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7270b054682071c5eb3a7"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "P1", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72714054682071c5eb3a8"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "P2", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af727d0054682071c5eb3aa"), 
+    "win" : NumberInt(17), 
+    "lose" : NumberInt(15), 
+    "draw" : NumberInt(5), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "jkbdvj", 
+    "creator" : ObjectId("5af701ce054682071c5eb37a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72859054682071c5eb3af"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(5), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "bot lay 2", 
+    "creator" : ObjectId("5af708be054682071c5eb38d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72b2191af631330ab8fad"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot 1", 
+    "creator" : ObjectId("5af70553054682071c5eb384"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72bb391af631330ab8fb3"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Random", 
+    "creator" : ObjectId("5af707eb054682071c5eb38b"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72c0c91af631330ab8fb7"), 
+    "win" : NumberInt(8), 
+    "lose" : NumberInt(9), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "Main1_11h01", 
+    "creator" : ObjectId("5af707eb054682071c5eb38b"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72c6d91af631330ab8fb8"), 
+    "win" : NumberInt(17), 
+    "lose" : NumberInt(10), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot 2", 
+    "creator" : ObjectId("5af70553054682071c5eb384"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72c8a91af631330ab8fb9"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526148234454", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72c8e91af631330ab8fba"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526148238288", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72c9991af631330ab8fbb"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(12), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "P11", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72d3391af631330ab8fc3"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "GG!", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72da891af631330ab8fc5"), 
+    "win" : NumberInt(12), 
+    "lose" : NumberInt(7), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "nha2", 
+    "creator" : ObjectId("5af704b4054682071c5eb382"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72de191af631330ab8fcb"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(10), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "abcxyz", 
+    "creator" : ObjectId("5af709ef054682071c5eb391"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72e7691af631330ab8fce"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(10), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "temp1 _If_Else", 
+    "creator" : ObjectId("5af707eb054682071c5eb38b"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72e9191af631330ab8fd0"), 
+    "win" : NumberInt(17), 
+    "lose" : NumberInt(7), 
+    "draw" : NumberInt(5), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT3", 
+    "creator" : ObjectId("5af70460054682071c5eb381"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72eb591af631330ab8fd6"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "AFK", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af72fb791af631330ab8fda"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot1", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7311d91af631330ab8fe4"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot2", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7322e91af631330ab8fed"), 
+    "win" : NumberInt(7), 
+    "lose" : NumberInt(4), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot3", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7330091af631330ab8ff2"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot4", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7332091af631330ab8ff6"), 
+    "win" : NumberInt(4), 
+    "lose" : NumberInt(6), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "HAHA", 
+    "creator" : ObjectId("5af70411054682071c5eb380"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7333491af631330ab8ffa"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Leu Leu", 
+    "creator" : ObjectId("5af706f3054682071c5eb388"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7335291af631330ab8fff"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Bot5", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7347091af631330ab9005"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(9), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "Hehe", 
+    "creator" : ObjectId("5af706f3054682071c5eb388"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7355391af631330ab9009"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(7), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "bchjjh", 
+    "creator" : ObjectId("5af701ce054682071c5eb37a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7357891af631330ab900b"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "hihi", 
+    "creator" : ObjectId("5af705a4054682071c5eb385"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7358591af631330ab900d"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "KTPM@K!!", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735c291af631330ab9012"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT4", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735c391af631330ab9013"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150595002", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735c791af631330ab9014"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150599104", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735c891af631330ab9015"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Ahihi", 
+    "creator" : ObjectId("5af705a4054682071c5eb385"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735c991af631330ab9016"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150601088", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735c991af631330ab9017"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150601939", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735ca91af631330ab9018"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150602436", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735ca91af631330ab9019"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150602801", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af735d091af631330ab901b"), 
+    "win" : NumberInt(5), 
+    "lose" : NumberInt(4), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT4k12", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7361091af631330ab901d"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(4), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Ahihihi", 
+    "creator" : ObjectId("5af705a4054682071c5eb385"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7368691af631330ab9021"), 
+    "win" : NumberInt(20), 
+    "lose" : NumberInt(11), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "dm4", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af736d891af631330ab9027"), 
+    "win" : NumberInt(4), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "My Bot", 
+    "creator" : ObjectId("5af70553054682071c5eb384"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af736f591af631330ab902b"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Ktpm211", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7374891af631330ab9031"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT4K12", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7374891af631330ab9032"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526150984675", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7374c91af631330ab9033"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT4K121", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7375191af631330ab9034"), 
+    "win" : NumberInt(8), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(7), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "codeNgu", 
+    "creator" : ObjectId("5af707bc054682071c5eb38a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7377391af631330ab903d"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Boss", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af737a391af631330ab9046"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "dddddd", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af737c891af631330ab904d"), 
+    "win" : NumberInt(8), 
+    "lose" : NumberInt(9), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "Ahuhu", 
+    "creator" : ObjectId("5af705a4054682071c5eb385"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af737e091af631330ab904f"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "ddggh", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7387591af631330ab9057"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "123", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7387e91af631330ab9058"), 
+    "win" : NumberInt(4), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "codengu1", 
+    "creator" : ObjectId("5af707bc054682071c5eb38a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af738b891af631330ab905a"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "aqaaa", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af738c191af631330ab905b"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1234", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7390091af631330ab905e"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "boss", 
+    "creator" : ObjectId("5af701ce054682071c5eb37a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7391191af631330ab905f"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7391291af631330ab9060"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526151442191", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7391391af631330ab9061"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526151443621", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af7391591af631330ab9062"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "112", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73a5691af631330ab9076"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "jkh", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73a9c91af631330ab907b"), 
+    "win" : NumberInt(6), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "cntt5k12", 
+    "creator" : ObjectId("5af7024b054682071c5eb37b"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73aac91af631330ab907c"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT5K12", 
+    "creator" : ObjectId("5af7024b054682071c5eb37b"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73ac991af631330ab907f"), 
+    "win" : NumberInt(9), 
+    "lose" : NumberInt(7), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "Miu xinh", 
+    "creator" : ObjectId("5af709ef054682071c5eb391"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b0491af631330ab9083"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "vovan", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b7591af631330ab908c"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "bot khong", 
+    "creator" : ObjectId("5af708be054682071c5eb38d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b7a91af631330ab908d"), 
+    "win" : NumberInt(5), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Gay", 
+    "creator" : ObjectId("5af70684054682071c5eb387"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b8291af631330ab9090"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526152066353", 
+    "creator" : ObjectId("5af70411054682071c5eb380"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b8291af631330ab9091"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "WIN PLS", 
+    "creator" : ObjectId("5af70411054682071c5eb380"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b8391af631330ab9092"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "code(Sieu)NGU", 
+    "creator" : ObjectId("5af707bc054682071c5eb38a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73b8b91af631330ab9095"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(1), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "def", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73ba391af631330ab909b"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(8), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "ktpm2 k12 test", 
+    "creator" : ObjectId("5af7061c054682071c5eb386"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73bdb91af631330ab909f"), 
+    "win" : NumberInt(13), 
+    "lose" : NumberInt(5), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "Cuoi", 
+    "creator" : ObjectId("5af70344054682071c5eb37e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73be191af631330ab90a1"), 
+    "win" : NumberInt(7), 
+    "lose" : NumberInt(10), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "Hello", 
+    "creator" : ObjectId("5af703b5054682071c5eb37f"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73bee91af631330ab90ac"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "last", 
+    "creator" : ObjectId("5af708be054682071c5eb38d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73bf291af631330ab90ae"), 
+    "win" : NumberInt(10), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT1K12", 
+    "creator" : ObjectId("5af70513054682071c5eb383"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73c0391af631330ab90b9"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "dm5", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73c3691af631330ab90be"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(6), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "defend", 
+    "creator" : ObjectId("5af702eb054682071c5eb37d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73c3c91af631330ab90bf"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "P1B", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73c4091af631330ab90c0"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(6), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "tim giet", 
+    "creator" : ObjectId("5af704b4054682071c5eb382"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73c5691af631330ab90cb"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "P2B", 
+    "creator" : ObjectId("5af702a5054682071c5eb37c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73c6091af631330ab90cf"), 
+    "win" : NumberInt(7), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "vector", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73cad91af631330ab90d5"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "ktpm2 k12 test 2", 
+    "creator" : ObjectId("5af7061c054682071c5eb386"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73cc991af631330ab90d8"), 
+    "win" : NumberInt(7), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "cuoi 2", 
+    "creator" : ObjectId("5af708be054682071c5eb38d"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73cd991af631330ab90da"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(8), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "code(super)NGU", 
+    "creator" : ObjectId("5af707bc054682071c5eb38a"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73cdb91af631330ab90db"), 
+    "win" : NumberInt(8), 
+    "lose" : NumberInt(9), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "wqrr", 
+    "creator" : ObjectId("5af703b5054682071c5eb37f"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73ce991af631330ab90dd"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(8), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "can ca the gioi", 
+    "creator" : ObjectId("5af70411054682071c5eb380"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73cec91af631330ab90de"), 
+    "win" : NumberInt(3), 
+    "lose" : NumberInt(6), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "AI", 
+    "creator" : ObjectId("5af70848054682071c5eb38c"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73d5891af631330ab90fb"), 
+    "win" : NumberInt(4), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526152536510", 
+    "creator" : ObjectId("5af704b4054682071c5eb382"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73d6591af631330ab90fd"), 
+    "win" : NumberInt(0), 
+    "lose" : NumberInt(0), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "1526152549792", 
+    "creator" : ObjectId("5af70411054682071c5eb380"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73d6691af631330ab90fe"), 
+    "win" : NumberInt(7), 
+    "lose" : NumberInt(6), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "lmao", 
+    "creator" : ObjectId("5af70411054682071c5eb380"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73d6691af631330ab90ff"), 
+    "win" : NumberInt(9), 
+    "lose" : NumberInt(4), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "vector2", 
+    "creator" : ObjectId("5af70740054682071c5eb389"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73d7491af631330ab9107"), 
+    "win" : NumberInt(13), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "CNTT3K12", 
+    "creator" : ObjectId("5af70460054682071c5eb381"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af73d8691af631330ab910d"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(4), 
+    "draw" : NumberInt(2), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "OK", 
+    "creator" : ObjectId("5af70553054682071c5eb384"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af74273d5f55f0a5c48514d"), 
+    "win" : NumberInt(2), 
+    "lose" : NumberInt(2), 
+    "draw" : NumberInt(0), 
+    "isBotSelected" : false, 
+    "isBotDeleted" : false, 
+    "name" : "vua vua", 
+    "creator" : ObjectId("5af70684054682071c5eb387"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af75c70d5f55f0a5c485182"), 
+    "win" : NumberInt(1), 
+    "lose" : NumberInt(3), 
+    "draw" : NumberInt(1), 
+    "isBotSelected" : true, 
+    "isBotDeleted" : false, 
+    "name" : "oc", 
+    "creator" : ObjectId("5af70684054682071c5eb387"), 
+    "__v" : NumberInt(0)
+}

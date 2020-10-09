@@ -1,0 +1,401 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+body {
+    background-image: url('img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.word,
+.logo {
+    margin: 30px 0
+}
+
+.word {
+    height: 110px;
+    margin-top: 80px;
+}
+
+.logo {
+    height: 170px;
+    float: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.edit-form select,
+.edit-form option,
+input[type='number'],
+input[type='tel'],
+input[type='file'],
+input[type='date'],
+input[type='email'],
+input[type='text'],
+input[type='password'],
+input[type='submit'],
+input[type='button'] {
+    border: 0px!important;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+table span {
+    width: 30%;
+    background: #ddd;
+    color: black;
+    padding: 1px 10px;
+    background-color: #32312C;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+}
+
+table tr>td>h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.table {
+    background: url(img/2.jpg);
+    padding: 15px;
+}
+
+.table tr td:first-child,
+.table tr td:last-child,
+.table tr td:nth-child(3),
+.table tr td:nth-child(5),
+.table tr td:nth-child(7) {
+    background: url(img/4.jpg);
+    border-bottom: 3px solid transparent;
+}
+
+.table tr td:nth-child(2),
+.table tr td:nth-child(4),
+.table tr td:nth-child(6),
+.table tr td:nth-child(8) {
+    background: url(img/3.jpg);
+    border-bottom: 3px solid transparent;
+}
+
+.wrap {
+    padding: 0px;
+    margin: 0px auto;
+    width: 1200px;
+    height: auto;
+}
+
+footer {
+    padding: 20px 0 10px 0;
+    font-size: 14px;
+    color: #888
+}
+
+footer a {
+    color: #888;
+    font-weight: 600
+}
+
+footer a:hover {
+    color: orangered
+}
+
+p {
+    line-height: 25px;
+}
+
+.header {
+    width: 100%;
+    height: 48px;
+    background: url(img/1.jpg);
+}
+
+.header .menu {
+    width: 100%;
+    height: 48px;
+}
+
+.header .menu ul {
+    list-style: none;
+}
+
+.header .menu ul li {
+    float: left;
+    padding: 18px 25px 11px;
+}
+
+.header .menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #9a9999;
+    font-weight: bold;
+}
+
+.header .menu ul li:hover {
+    background: url(img/2.jpg);
+}
+
+.header .menu ul li:hover a {
+    color: white;
+}
+
+.content {
+    margin-top: 10px;
+    background: url(img/bg.jpg);
+    padding: 15px;
+}
+
+.content h1 {
+    background: url(img/2.jpg);
+    color: white;
+    padding: 15px 0px;
+    margin: 0px;
+    /* height: 60px; */
+}
+
+.content .search {
+    height: 37px;
+    background: url(img/2.jpg);
+    padding: 15px;
+}
+
+.content .search form {
+    width: 70%;
+    height: 100%;
+    float: left;
+    font-weight: bold;
+}
+
+.content .search form input[type='text'] {
+    background: #222020;
+    border: 0px;
+    width: 300px;
+    height: 35px;
+    text-indent: 10px;
+    color: #9a9999;
+}
+
+.content .search form input[type='submit'] {
+    background: #655e5e;
+    border: 0px;
+    height: 37px;
+    width: 120px;
+    color: #9a9999;
+}
+
+.content .search span {
+    float: right;
+    color: #f7860d;
+    font-weight: bold;
+    width: 30%;
+    height: 37px;
+    line-height: 37px;
+    background: #222020;
+    text-align: center;
+}
+
+.content table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content table tr td {
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.main {
+    background: #4d4844;
+}
+
+.left {
+    width: 66%;
+    float: left;
+    padding: 15px;
+    background: url(img/2.jpg);
+}
+
+.left h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.right {
+    width: 30%;
+    float: right;
+}
+
+.right .login,
+.right .search3 {
+    width: 92%;
+    margin-bottom: 10px;
+    background: url(img/2.jpg);
+    padding: 15px;
+}
+
+.right .search3 input[type='text'] {
+    width: 75% !important;
+    background: #222020;
+    width: 100%;
+    height: 38px;
+    padding-left: 10px;
+}
+
+.right .search3 input[type='submit'] {
+    background: #655e5e;
+    height: 37px;
+    width: 20%;
+}
+
+.login table tr td {
+    border: 0px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login input[type='number'],
+.login input[type='tel'],
+.login input[type='date'],
+.login input[type='email'],
+.login input[type='text'],
+.login input[type='password'] {
+    background: #222020;
+    width: 95%;
+}
+
+.login input[type='button'],
+.login input[type='submit'] {
+    background: #655e5e;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+#rs {
+    color: white;
+    font-weight: bold;
+    background: #655e5e;
+    padding: 10px 30px;
+    font-size: 13px;
+}
+
+.bot {
+    background: url(img/2.jpg);
+    padding: 15px;
+}
+
+.bot input[type='text'],
+.bot input[type='submit'] {
+    width: 95%;
+}
+
+.bot input[type='text'] {
+    background: #222020;
+    padding-left: 10px;
+}
+
+.login input[type='button'],
+.bot input[type='file'],
+.bot input[type='submit'] {
+    background: #655e5e;
+    width: 96.5%;
+}
+
+.bot #download {
+    background: #655e5e;
+    text-align: center;
+}
+
+.bot-list h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bot-list {
+    padding: 15px;
+    padding-top: 30px;
+    background: url(img/2.jpg);
+}
+
+.bot-list table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.le,
+.chan {
+    border-bottom: 2px solid black;
+    padding: 1px 10px;
+    text-align: left;
+}
+
+.le {
+    background: url(img/4.jpg);
+}
+
+.chan {
+    background: url(img/3.jpg);
+}
+
+.sb {
+    float: right;
+    font-weight: initial;
+    background: #222020;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+
+.edit-form {
+    z-index: 1000;
+    background: #222020;
+    color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.edit-form option,
+.edit-form select,
+.edit-form input,
+textarea {
+    background-color: #17120f!important;
+    color: white!important;
+}
+
+.edit-form button {
+    background-color: #585858;
+    border-color: #585858;
+}
+
+.modal-dialog {
+    min-width: 700px;
+    margin: 5.75rem auto;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    border: none;
+}

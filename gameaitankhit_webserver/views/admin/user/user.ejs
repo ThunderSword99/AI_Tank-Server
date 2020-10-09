@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - AI Game 2018</title>
+    <link rel="stylesheet" href="/libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <% include popup.ejs%>
+        <div class="wrap">
+            <header>
+                <img src="/img/word.png" class="word" alt="IT Festival" />
+                <img src="/img/logo1.png" class="logo" alt="IT Festival" />
+                <div style="clear: both;"></div>
+            </header>
+            <% include ../../layout/menu.ejs%>
+                <div class="content">
+                    <div class="bot-list">
+                        <h2>User List:</h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="chan text-center">User name</td>
+                                    <td class="le text-center">First name</td>
+                                    <td class="chan text-center">Last name</td>
+                                    <td class="le text-center">Student ID</td>
+                                    <td class="chan text-center">Email</td>
+                                    <td class="le text-center">Phone number</td>
+                                    <td class="chan text-center">Role</td>
+                                    <td class="le text-center">
+                                        <input type="button" class="sb" onclick="addU()" value="Add">
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <% for (i in data) {%>
+                                <tbody>
+                                    <tr>
+                                        <td class="chan text-center">
+                                            <%=data[i].userName%>
+                                        </td>
+                                        <td class="le text-center">
+                                            <%=data[i].firstName%>
+                                        </td>
+                                        <td class="chan text-center">
+                                            <%=data[i].lastName%>
+                                        </td>
+                                        <td class="le text-center">
+                                            <%=data[i].studentID%>
+                                        </td>
+                                        <td class="chan text-center">
+                                            <%=data[i].email%>
+                                        </td>
+                                        <td class="le text-center">
+                                            <%=data[i].phoneNumber%>
+                                        </td>
+                                        <td class="chan text-center">
+                                            <%=data[i].role%>
+                                        </td>
+                                        <td class="le">
+                                            <input type="button" class="sb" onclick="lockU('<%=data[i].id%>')" value="<%= data[i].status ? 'Disable' : 'Active'%>">
+                                            <div class="modal fade" role="dialog" id="confirmform">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <form action="/admin/user/lock" name="confirmform" method="POST">
+                                                                <input type="hidden" name="_csrf" value="">
+                                                                <input type="hidden" name="id" value="">
+                                                                <div class="row edit-form">
+                                                                    <div class="col-md-12 text-center">
+                                                                        <div class="form-group">
+                                                                            <h2>Are you sure you want to lock user ?</h2>
+                                                                            <button type="submit" class="btn btn-primary">Apply</button>
+                                                                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="button" class="sb" onclick="editU('<%=data[i].id%>')" value="Edit">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <% } %>
+                        </table>
+                    </div>
+                </div>
+                <script src="/libraries/jquery.js"></script>
+                <script src="/libraries/bootstrap/js/bootstrap.min.js"></script>
+                <script src="/js/user.js"></script>
+                <footer>
+                    Copyright &copy; 2020 by
+                    <a href="">HIT</a>
+                </footer>
+        </div>
+</body>
+
+</html>
