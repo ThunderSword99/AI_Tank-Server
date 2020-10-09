@@ -3,12 +3,9 @@
 ## Table of content
 
 - [Enviroments](#Enviroments)
-    - [Extension](#extension)
-    - [Database](#database)
-
 - [Installation](#installation)
-    - [TER](#typo3-extension-repository)
-    - [Composer](#composer)
+    - [RUN MONGOCHEF](#(1) First: you run mongochef)
+    - [IMPORT DATABASE](#(2) Second: import database)
 
 ## Enviroments
 - Visual studio code (To open gameserver and webserver folder). [Download here](https://code.visualstudio.com/docs/?dv=win)
