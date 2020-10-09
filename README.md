@@ -3,7 +3,7 @@
 ## Table of content
 
 - [Enviroments](#Enviroments)
-- [Import database](#Import)
+- [Import database](#Importdatabase)
     - [RUN MONGOCHEF](#(1) First: you run mongochef)
     - [IMPORT DATABASE](#(2) Second: import database)
 
@@ -11,7 +11,7 @@
 - Visual studio code (To open gameserver and webserver folder). [Download here](https://code.visualstudio.com/docs/?dv=win)
 - Mongochef (To use database). [Download here](https://drive.google.com/file/d/1RJywbAKmuMsNvHmJcCxUVtVXGD_YSftO/view?usp=sharing)
 
-## Import database
+## Importdatabase
 ### (1) First: you run mongochef
 
 
