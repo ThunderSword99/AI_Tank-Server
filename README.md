@@ -7,7 +7,7 @@
     - [RUN MONGOCHEF](#Run-mongochef)
     - [IMPORT DATABASE](#Import-database)
 - [Run server](#Run-server)
-    - [INSTALL MODULE](#Install-module-(Install-module-when-you-run-the-first-time))
+    - [INSTALL MODULE](#Install-module)
     - [RUN GAME SERVER](#Run-game-server)
     - [RUN WEB SERVER](#Run-web-server)
 
@@ -40,7 +40,9 @@
 </details>
 
 ## Run server
-### Install module (Install module when you run the first time)
+### Install module
+#### :warning: Just installing in the first time you use
+
 - Open terminal in Visual Studio Code then type:
 
 `npm install yarn`
