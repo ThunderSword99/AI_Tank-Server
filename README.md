@@ -16,6 +16,16 @@
 
 ## Import database
 ### First: you run mongochef
-
+<div align="center">
+	<img src="Media/1.png" alt="">
+</div>
 ### Second: import database
-
+<div align="center">
+	<img src="Media/2.png" alt="">
+</div>
+<div align="center">
+	<img src="Media/3.png" alt="">
+</div>
+<div align="center">
+	<img src="Media/4.png" alt="">
+</div>
